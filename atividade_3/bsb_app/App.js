@@ -217,6 +217,8 @@ const HomeScreen = ({ navigation }) => {
               <Button
                 title="Ver Detalhes"
                 onPress={() => handleButtonClick(item.name, item.description, item.image, item.imagesWithInfo)}
+                color="#1CC4A8" // Cor para o botão
+                style={styles.button}
               />
             </View>
           </View>
