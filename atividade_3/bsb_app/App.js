@@ -143,7 +143,7 @@ const places = [
         extraInfo: {
           hours: 'Diariamente, das 18h às 00h30',
           address: 'Asa Sul Superquadra Sul 307 - Brasília, DF, 70360-510',
-          history: 'A exemplo de sua população, que conta com pessoas de várias regiões do Brasil, a capital federal reúne algumas das mais diversas receitas de hot-dogs. Mais que isso: Brasília conta com uma receita de cachorro-quente que pode chamar de "sua". No "dog" do Distrito Federal, não podem faltar ingredientes como queijo, bacon e as famosas pastas de alho, consideradas praticamente obrigatórias na versão brasiliense. .No centro de Brasília, mais exatamente na quadra 307 sul, o Dog da Igrejinha praticamente consolidou a receita clássica do hot-dog brasiliense. Criado em 1995 pelos irmãos Raimundo e Francisco Sousa, o antigo Raimundo Hot-Dog ganhou o coração dos brasilienses e é considerado uma referência na gastronomia local.'
+          history: 'A exemplo de sua população, que conta com pessoas de várias regiões do Brasil, a capital federal reúne algumas das mais diversas receitas de hot-dogs. Mais que isso: Brasília conta com uma receita de cachorro-quente que pode chamar de "sua". No "dog" do Distrito Federal, não podem faltar ingredientes como queijo, bacon e as famosas pastas de alho, consideradas praticamente obrigatórias na versão brasiliense. No centro de Brasília, mais exatamente na quadra 307 sul, o Dog da Igrejinha praticamente consolidou a receita clássica do hot-dog brasiliense. Criado em 1995 pelos irmãos Raimundo e Francisco Sousa, o antigo Raimundo Hot-Dog ganhou o coração dos brasilienses e é considerado uma referência na gastronomia local.'
         }
       },
       { 
@@ -255,9 +255,9 @@ const styles = StyleSheet.create({
   card: {
     backgroundColor: 'white',
     borderRadius: 10,
-    padding: 20,
+    padding: 10,
     marginBottom: 10,
-    flexDirection: 'row',
+    flexDirection: 'column',
     alignItems: 'center',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
@@ -266,10 +266,10 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   image: {
-    width: 150,
+    width: 310,
     height: 150,
     borderRadius: 10,
-    marginRight: 15,
+    marginRight: 1,
   },
   mainImage: {
     width: '100%',
@@ -313,7 +313,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     color: '#333',
-  }
+  },
 });
 
 export default App;
