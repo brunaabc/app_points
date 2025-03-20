@@ -6,7 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 // Definindo o Stack Navigator
 const Stack = createStackNavigator();
 
-const technologies = [
+const places = [
   {
     id: '1',
     name: 'Pontos Turísticos',
@@ -132,45 +132,43 @@ const technologies = [
         url: 'https://jornalcapitalfederal.com.br/wp-content/uploads/2024/04/WhatsApp-Image-2024-04-17-at-09.28.28-1-706x1024.jpeg', 
         info: 'Boteco Caju Limão',
         extraInfo: {
-          hours: 'Terça a domingo, das 9h às 18h45',
-          address: 'Torre de TV de Brasília - Esplanada da Torre - Plano Piloto, Brasília - DF, 70070-300',
-          history: 'Projetada pelo arquiteto e urbanista Lúcio Costa e inaugurada em 1967, a Torre de Tv é um ponto bem procurado pelos turistas. É a segunda estrutura mais alta do Brasil, com 230 metros de altura, sendo um marco visual do quadradinho. Athos Bulcão, na maioria das vezes presente com sua arte, foi responsável pela pintura de um painel de azulejos no interior da torre. Ela possui um primeiro piso, o mezanino que se apresenta como um amplo espaço para eventos com 360º de vista para a cidade. A torre também possui um mirante, que possui 75 metros de altura que é indispensável conhecer. Nos arredores da Torre de TV acontece uma feira de quinta a domingo, também é bem interessante dar uma olhada. A visita a Torre é orbigatória para os turistas que vão pela primeira vez à capital.'
+          hours: 'Segunda a Quinta - 11h30 às 00h Sexta e Sábado - 11h30 às 01h00 Domingo - 11h30 às 22h30',
+          address: 'Quadra 202, Bloco A, Loja 3 – Asa Norte, em Brasília (DF)',
+          history: 'Um petisco frito na hora, aquela cerveja gelada e assuntos que rendem horas. Do que lembrou? Certamente de um bom boteco. E essa é a essência do novo point de Brasília, o Boteco Caju Limão, que celebra a tradição dos bares clássicos da cidade; da localização até o cardápio. Um dos chamariz do Caju Limão é o chopp cremoso servido na tulipa ou na caneca congelada, que vai bem sozinho ou acompanhado de petiscos dos mais variados tipos. O Caju Limão tem um espaço ao ar livre, tranquilo e acolhedor, com capacidade para receber até 500 pessoas. Além do espaço, o bar contempla um cardápio de petiscos típicos de boteco assinados pela renomada chef Babi Frazão, que tem vasta experiência em restaurantes pelo mundo. O novo point também apresenta uma carta de drinks elaborada pelo mixologista Bruno Machado, com drinks autorais, clássicos e releituras, entre elas o outro carro-chefe que deu nome ao boteco: a caipi de Caju Limão.'
         }
       },
       { 
         url: 'https://uploads.metropoles.com/wp-content/uploads/2022/07/05132127/BC199B59-A053-4C3A-8A65-CADA3227CFED.jpeg', 
         info: 'Dog da Igrejinha',
         extraInfo: {
-          hours: 'Terça a domingo, das 9h às 18h',
-          address: 'Eixo Monumental - Lado Oeste - Praça do Cruzeiro, Brasília - DF, 70070-300',
-          history: 'É um lindo museu, construído para manter viva a memória daquele que ousou construir uma cidade no meio do nada: o ex-presidente Juscelino Kubitschek. Localizado em um dos pontos mais altos e icônicos da capital, o monumento reúne acervo obrigatório para quem pretende conhecer os bastidores da construção da capital. No memorial se encontra o túmulo onde JK descansa está no centro de um ambiente com paredes esculpidas por Athos Bulcão e um vitral feito por Marianne Peretti. O espaço recebe luz natural que varia de tom de acordo com a posição do Sol. O projeto arquitetônico do Memorial JK foi inaugurado em 1981. Trata-se de uma homenagem de Dona Sarah Kubitschek para manter viva a memória do marido após sua morte. Um espaço muito interessante de conhcer e bem emocionante.'
+          hours: 'Diariamente, das 18h às 00h30',
+          address: 'Asa Sul Superquadra Sul 307 - Brasília, DF, 70360-510',
+          history: 'A exemplo de sua população, que conta com pessoas de várias regiões do Brasil, a capital federal reúne algumas das mais diversas receitas de hot-dogs. Mais que isso: Brasília conta com uma receita de cachorro-quente que pode chamar de "sua". No "dog" do Distrito Federal, não podem faltar ingredientes como queijo, bacon e as famosas pastas de alho, consideradas praticamente obrigatórias na versão brasiliense. .No centro de Brasília, mais exatamente na quadra 307 sul, o Dog da Igrejinha praticamente consolidou a receita clássica do hot-dog brasiliense. Criado em 1995 pelos irmãos Raimundo e Francisco Sousa, o antigo Raimundo Hot-Dog ganhou o coração dos brasilienses e é considerado uma referência na gastronomia local.'
         }
       },
       { 
         url: 'https://uploads.metroimg.com/wp-content/uploads/2017/02/11162024/ernesto2.jpg', 
         info: 'Ernesto Café Especiais',
         extraInfo: {
-          hours: 'Quinta a segunda, das 9h às 17h',
-          address: 'Palácio do Congresso Nacional - Praça dos 3 Poderes, Brasília - DF, 70160-900',
-          history: 'O Palácio do Congresso Nacional é um dos pilares da arquitetura monumental de Niemeyer que dão forma à capital inaugurada em 1960. Está erguido na Praça dos Três Poderes, que tem este nome por também abrigar o Palácio do Planalto (sede do Poder Executivo) e o Palácio do Supremo Tribunal Federal (instância máxima do Poder Judiciário). Construído em terreno elevado, é visto de longe como culminância da avenida Eixo Monumental, que abriga a Esplanada dos Ministérios e atravessa a cidade de norte a sul. Sede das duas Casas do Poder Legislativo e um dos mais famosos cartões postais do Brasil, o Palácio do Congresso Nacional é composto por duas cúpulas e duas torres de 28 andares, que abrigam a Câmara dos Deputados e o Senado Federal. O Congresso possui visitação guiada que conta sobre a história política do Brasil e passa por lindos salões e corredores com obras de arte de valor inestimável. Muito interessante conhecer esse espaço tão importante para o Brasil.'
+          hours: 'Diarimente, das 7h às 22h',
+          address: 'Asa Sul CLS 115 BL C - Asa Sul, Brasília - DF, 70385-530 // Asa Norte Comércio Local Norte 108 BLoco A Loja 48 - Asa Norte, Brasília - DF, 70788-510',
+          history: 'É o primeiro nome que vem à cabeça de muita gente quando se fala a palavra “café” em Brasília. O Ernesto é a perfeita combinação de ambiente bacana, comidinhas deliciosas — tem bolos irresistíveis e até uma famosa pamonha assada aos fins de semana — e café em diferentes blends e formas de extração. A vizinhança com a Urban Arts reforça o aspecto cool do lugar. Além de ser um verdadeiro ícone no cenário café de Brasília, o Ernesto Café conquista pela sua atmosfera acolhedora e descomplicada, onde cada detalhe reflete o carinho e a paixão pelo que faz. Seja para um café rápido no intervalo do dia ou para um encontro mais descontraído com amigos, o ambiente é perfeito para se perder entre conversas e risadas. O aroma inconfundível do café, aliado à vibe descontraída do local, faz do Ernesto um lugar onde os momentos ganham sabor e memória. E, claro, é impossível não se deixar levar pela variedade de opções irresistíveis no cardápio, que vão muito além do café, criando uma experiência completa para todos os sentidos.'
         }
       },
       { 
         url: 'https://http2.mlstatic.com/D_NQ_NP_679402-MLA74140244916_012024-OO.jpg', 
         info: 'Deboche! Bar',
         extraInfo: {
-          hours: 'Terça a domingo, das 9h às 18h30',
-          address: 'Setor Cultural Sul, Lote 2 próximo à Rodoviária do Plano Piloto, Brasília - DF, 70070-150',
-          history: 'O Museu Nacional da República (MuN) faz parte do Conjunto Cultural da República, juntamente com a Biblioteca Nacional de Brasília, e foi inaugurado em 15 de dezembro de 2006. O Museu Nacional da República é um equipamento cultural sob gestão da Secretaria de Cultura e Economia Criativa do Distrito Federal, sem fins lucrativos, à serviço da comunidade e do seu desenvolvimento. O Museu tem como missão promover as artes visuais para todos os públicos, de forma dialógica, e ser um espaço de incentivo à curiosidade, sensibilização do olhar e produção de conhecimento, por meio de ações de formação do acervo, salvaguarda, pesquisa, comunicação e educação. É bem interessante reservar um tempo para conhcer esse monumento e visitar as exposições que estão presentes lá. No site do museu tem a agenda das exposições que sempre muda, então é imporante se manter atualizado.'
+          hours: 'Terça a quarta, das 18h às 00h - Quinta, das 18h às 01h - Sexta a sábado, das 16h às 1h- Domingo, das 16h00 às 00h',
+          address: 'Asa Norte CLN 201 BL A Loja 61 - Asa Norte, Brasília - DF, 70832-510',
+          history: 'Comida de boteco, bebida gelada e música animada. Os prazeres que os brasileiros tanto adoram está presente nop Deboche! Bar. O menu assinado pela chef Luiza Pinheiro aposta em porções de bolinhos fritos como, por exemplo, o Feijuca (R$ 24,99, seis unidades), com massa feita de carne e feijão batidos e engrossada com farinha de mandioca. O preparo é acompanhado pela maionese de caipirinha da casa. Os produtos veganos e sem glúten também estão entre as opções do cardápio. O bolinho Fala, Rafael (R$ 24,99, seis unidades) será feito de grão-de-bico batido com uma combinação de temperos especiais. Além disso, a casa terá receitas como a Batata frita debochada (R$ 24,99, com 500g). A batata crocante é coberta com carne de porco desfiada cozida no molho de churrasco da casa e finalizada com requeijão cremoso e cebolinha. Para acompanhar, um molho à escolha do cliente. Quem passar pelo Deboche! Bar terá a chance de provar drinques refrescantes e clássicos. Na carta assinada pelo mixologista Gustavo Guedes estão bebidas como o Antiquado (R$ 27). O drinque é uma releitura do Old Fashioned feita com cachaça envelhecida e calda de café com castanha do Pará. Quem também ganhou uma nova versão foi o queridinho, moscow mule. No espaço, a bebida ganha o nome de Axé Mule (R$ 25) e novos sabores com a troca da clássica espuma de gengibre por uma espuma de cupuaçu. A carta leva em consideração insumos bem brasileiros, sem deixar de lado as tendências da coquetelaria mundial. É uma proposta divertida, com mixologia de qualidade.'
         }
       }
     ]
-  },
-  // Continue com os outros itens...
-
+  }
 ];
 
-// Tela de detalhes do ponto turístico
+// Tela de detalhes 
 const DetailsScreen = ({ route }) => {
   const { name, description, image, imagesWithInfo } = route.params;
 
@@ -198,7 +196,7 @@ const DetailsScreen = ({ route }) => {
   );
 };
 
-// Tela principal com a lista de pontos turísticos
+// Tela principal com a lista 
 const HomeScreen = ({ navigation }) => {
   const handleButtonClick = (name, description, image, imagesWithInfo) => {
     navigation.navigate('Details', { name, description, image, imagesWithInfo });
@@ -208,7 +206,7 @@ const HomeScreen = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={styles.titulo}>O que fazer em BSB?</Text>
       <FlatList
-        data={technologies}
+        data={places}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
           <View style={styles.card}>
